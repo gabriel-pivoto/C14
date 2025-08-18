@@ -1,4 +1,4 @@
-<span style="color: red;">Projeto consiste em cores coloridas no terminal</span>
+<span style="color: red;">Projeto consiste em texto colorido no terminal</span>
 
 
 
