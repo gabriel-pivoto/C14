@@ -2,13 +2,13 @@
 
 
 
-<span style="color: blue;">Para build do projeto</span>
+<span style="color: blue;">Para build do projeto.</span>
 
 ```bash
 npm run build
 ```
 
-<span style="color: brown;">This text is red.</span>
+<span style="color: brown;">Para rodar o projeto.</span>
 ```bash
 npm run start
 ```
