@@ -12,3 +12,8 @@ npm run build
 ```bash
 npm run start
 ```
+
+<span style="color: pink;">Resolvi o conflito, deletando a linha que estava dando o conflito e marquei como resolvido.</span>
+
+
+
