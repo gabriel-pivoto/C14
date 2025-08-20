@@ -1,6 +1,10 @@
 <span style="color: red;">Projeto consiste em texto colorido no terminal</span>
 
+<span style="color: blue;">Antes de tudo, instale as dependências do projeto.</span>
 
+```bash
+npm install
+```
 
 <span style="color: blue;">Para build do projeto.</span>
 
