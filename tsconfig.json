@@ -1,26 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "resolveJsonModule": true,
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "incremental": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "outDir": "./dist",
-    "baseUrl": ".",
-    "types": [],
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  }
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["vitest/globals"]
+  },
+  "include": ["src", "tests"]
 }
