@@ -14,8 +14,7 @@ export interface CreateTaskInput {
 export class CreateTask {
   constructor(private repo: TaskRepository) {}
   async execute(input: CreateTaskInput): Promise<Result<Task>> {
-    const titleErr = validateTitle(input.title)
-    if (titleErr) return Err(titleErr)
+    //Exemplo: mudamos a regra de negócio e não precisamos mais validadar o tamanho do título da task
     const prioErr = validatePriority(input.priority ?? 'medium')
     if (prioErr) return Err(prioErr)
     const dueErr = validateDueDate(input.dueDate)
