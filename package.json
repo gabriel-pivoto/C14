@@ -8,6 +8,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "echo 'add eslint later'",
     "test": "vitest run",
+    "build": "tsc",
     "test:watch": "vitest",
     "coverage": "vitest run --coverage"
   },
